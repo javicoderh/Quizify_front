@@ -1,0 +1,22 @@
+* {
+ padding: 0px;
+ margin: 0px;
+ /*outline: solid 1px rgb(208, 0, 208);*/
+ }
+ 
+ .App {
+ text-align: center;
+ }
+ 
+ .App-header {
+ position: relative;
+ background-color: #f6f8fa;
+ min-height: 100vh;
+ display: grid;
+ grid-template-columns: repeat(3840, 1fr);
+ grid-template-rows: repeat(2160, 1fr);
+ align-items: center;
+ justify-content: center;
+ font-size: calc(10px + 2vmin);
+ color: white;
+ }

@@ -1,0 +1,245 @@
+.quizForm {
+background-color: transparent;
+display: grid;
+grid-template-columns: repeat(970, 1fr);
+grid-template-rows: repeat(1447, 1fr);
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: transparent;
+grid-column-start: 199;
+grid-column-end: 1173;
+grid-row-start: 290;
+grid-row-end: 1965;
+}
+
+.quizForm h2 {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+color: black;
+position: relative;
+width: 100%;
+height: 100%;
+background-color: transparent;
+grid-column-start: 1;
+grid-column-end: 827;
+grid-row-start: 1;
+grid-row-end: 60; 
+font-family: 'Fredoka One', cursive;
+font-size: 24px;
+font-weight:100;
+text-align: left;
+}
+
+.quizForm p {
+ color: black;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content:center;
+ text-align: left;
+ width: 100%;
+ height: 100%;
+ background-color: transparent;
+ grid-column-start: 1;
+ grid-column-end: 1447;
+ grid-row-start: 258;
+ grid-row-end: 351;
+ font-family: 'Quicksand', sans-serif;
+ font-size: 18px;
+ }
+
+.inputs {
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ background-color: transparent;
+ grid-column-start: 1;
+ grid-column-end: 970;
+ grid-row-start: 466;
+ grid-row-end: 1517; 
+ border: none;
+ }
+
+input {
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: left;
+height: 30px !important;
+background-color: white;
+padding-left: 10px;
+border: none;
+border-radius: 1%;
+font-size: 14px;
+font-family: 'Quicksand', sans-serif;
+font-weight: 500;
+}
+
+select {
+padding-left: 10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: black;
+position: relative;
+top: 0px;
+text-align: left;
+width: 100%;
+background-color: rgb(255, 255, 255);
+font-family: 'Quicksand', sans-serif;
+font-size: 12px; 
+border: none;
+border-radius: 1%;
+}
+
+.lang {
+position: relative;
+top: 5.5px;
+height: 30px; 
+border: none;
+}
+
+.qNumber {
+position: relative;
+top: 0px;    
+height: 22px;
+border: none;
+}
+
+.long {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+color: black;
+position: relative;
+top: 0px;
+text-align: left;
+width: 97.5%;
+height: 7%;
+background-color: rgb(255, 255, 255);
+font-family: 'Quicksand', sans-serif;
+font-size: 12px; 
+border: none !important;
+}
+
+.topic {
+color: black;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content:center;
+text-align: left;
+height: 7%;
+background-color: rgb(255, 255, 255);
+font-family: 'Quicksand', sans-serif;
+font-size: 12px; 
+border: none;
+}
+
+.questionsNum {
+color: black;
+position: absolute;
+text-align: left;
+width: 100%;
+height: 100%;
+background-color: rgb(255, 255, 255);
+font-family: 'Quicksand', sans-serif;
+font-size: 20px; 
+border: none;
+}
+
+.language {
+color: black;
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content:center;
+text-align: left;
+width: 100%;
+height: 100%;
+background-color: rgb(255, 254, 254);
+font-family: 'Quicksand', sans-serif;
+font-size: 20px;
+border: none;
+}
+
+label {
+text-align: left;
+font-family: 'Fredoka One', cursive;
+font-size: 14px;
+font-weight:100;
+color: black;
+margin-top: 20px;
+margin-bottom: 16px;
+}
+
+.spLabel {
+position: relative;
+text-align: left;
+font-family: 'Fredoka One', cursive;
+font-size: 14px;
+font-weight:100;
+color: black;
+margin-bottom: 10px;
+}
+
+.inputNest {    
+ display: flex;
+ text-align: left;
+ flex-direction: row;
+ }  
+ 
+ .inputInnerNest {
+ display: flex;
+ flex-direction: column;
+ margin-right: 65px
+ }
+ 
+ .inputInnerNest2 {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ width: 450px;
+ text-align: left;
+ }
+ 
+ .inputInnerNest3 {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ width: 300px;
+ text-align: left;
+ }
+ 
+ .marginRight {
+ margin-right: 30px;
+ }
+ 
+ .submit {
+ text-align: center;
+ height: 37px;
+ margin-top: 20px;
+ background-color: #00ceac;
+ border: none;
+ color: white;
+ box-shadow: 0px 2px 0px green;
+ border-radius: 1%;
+ }
+ 
+::placeholder {
+position: relative;
+font-family: 'Quicksand', sans-serif;
+font-size: 14px;
+border: none;
+}
+
